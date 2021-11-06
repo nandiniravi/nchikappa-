@@ -1,0 +1,35 @@
+@import '../style.scss';
+
+.service-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-main h2{
+    background-color: $secondary-color;
+    color: $text-color;
+    font-weight: normal;
+    padding: 1%;
+}
+
+.service-sub{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 3%;
+    padding: 2%;
+}
+
+.service-sub img{
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+}
+
+.service-sub p{
+    margin: 1%;
+    text-align: left;
+}

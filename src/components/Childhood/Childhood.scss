@@ -1,0 +1,35 @@
+@import '../style.scss';
+
+.childhood-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.childhood-main h2{
+    background-color: $secondary-color;
+    color: $text-color;
+    font-weight: normal;
+    padding: 1%;
+}
+
+.childhood-sub{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 3%;
+    padding: 2%;
+}
+
+.childhood-sub img{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.childhood-sub p{
+    margin: 1%;
+    text-align: left;
+}

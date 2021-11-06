@@ -1,0 +1,38 @@
+@import '../style.scss';
+
+.header{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    background-color: $primary-color;
+    padding: 2%;
+    color: $text-color;
+}
+
+.header h1{
+    display: inline-block;
+    width: 56%;
+    text-align: left;
+    margin: 0;
+}
+
+.header a{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: $text-color;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.header a:hover{
+    background-color: $secondary-color;
+    text-decoration: underline;
+}
+
+.navbar{
+    margin-top: 1%;
+}
+
+.header a.selected{
+    background-color: $secondary-color;
+}
