@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nchikappa-/static/css/main.e08f8745.chunk.css",
+    "main.js": "/nchikappa-/static/js/main.60dfac64.chunk.js",
+    "main.js.map": "/nchikappa-/static/js/main.60dfac64.chunk.js.map",
+    "runtime-main.js": "/nchikappa-/static/js/runtime-main.e183639b.js",
+    "runtime-main.js.map": "/nchikappa-/static/js/runtime-main.e183639b.js.map",
+    "static/js/2.df842da3.chunk.js": "/nchikappa-/static/js/2.df842da3.chunk.js",
+    "static/js/2.df842da3.chunk.js.map": "/nchikappa-/static/js/2.df842da3.chunk.js.map",
+    "index.html": "/nchikappa-/index.html",
+    "static/css/main.e08f8745.chunk.css.map": "/nchikappa-/static/css/main.e08f8745.chunk.css.map",
+    "static/js/2.df842da3.chunk.js.LICENSE.txt": "/nchikappa-/static/js/2.df842da3.chunk.js.LICENSE.txt",
+    "static/media/wallpaper.cea3d8c7.jpg": "/nchikappa-/static/media/wallpaper.cea3d8c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e183639b.js",
+    "static/js/2.df842da3.chunk.js",
+    "static/css/main.e08f8745.chunk.css",
+    "static/js/main.60dfac64.chunk.js"
+  ]
+}
