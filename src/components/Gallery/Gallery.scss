@@ -1,0 +1,30 @@
+@import '../style.scss';
+
+.gallery-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-sub{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 3%;
+    padding: 2%;
+}
+
+.gallery-sub img{
+    display: inline-block;
+    width: 650px;
+    margin: 1%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.gallery-sub p{
+    margin: 1%;
+    text-align: left;
+}

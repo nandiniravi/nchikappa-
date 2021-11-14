@@ -13,6 +13,7 @@ import MainPageOptions from './components/MainPageOptions/MainPageOptions';
 import NavBarInSubPage from './components/NavBarInSubPage/NavBarInSubPage';
 import WriteUps from './components/WriteUps/WriteUps';
 import Festivals from './components/Festivals/Festivals';
+import Gallery from './components/Gallery/Gallery';
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
           </Route>
           <Route exact path='/religion'>
             <MainPageOptions page='religion'></MainPageOptions>
+          </Route>
+          <Route exact path='/gallery'>
+            <Gallery></Gallery>
           </Route>
           <Route exact path='/childhood'>
             <NavBarInSubPage page='aboutHim'></NavBarInSubPage>
