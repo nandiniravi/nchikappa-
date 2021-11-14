@@ -12,6 +12,7 @@ import Intro from './components/Intro/Intro';
 import MainPageOptions from './components/MainPageOptions/MainPageOptions';
 import NavBarInSubPage from './components/NavBarInSubPage/NavBarInSubPage';
 import WriteUps from './components/WriteUps/WriteUps';
+import Festivals from './components/Festivals/Festivals';
 
 const App = () => {
   return (
@@ -60,7 +61,7 @@ const App = () => {
           </Route>
           <Route exact path='/festivals'>
             <NavBarInSubPage page='religion'></NavBarInSubPage>
-            {/* <Festivals></Festivals> */}
+            <Festivals></Festivals>
           </Route>
           <Footer></Footer>
         </div>

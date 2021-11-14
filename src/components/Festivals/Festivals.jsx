@@ -1,15 +1,15 @@
 import React from "react";
-import './WriteUps.scss';
+import './Festivals.scss';
 import data from '../constants';
 
-const accordionWriteupData = data.accordionWriteupData;
+const accordionFestivalsData = data.accordionFestivalsData;
 
-const WriteUps = () => {
+const Festivals = () => {
     return (
         <div className='write-up'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <div className="accordion acc" id="accordionExample">
-            {accordionWriteupData.map((each, index) => {
+            {accordionFestivalsData.map((each, index) => {
                 return ( 
                 <div className="accordion-item">
                     <h2 className="accordion-header">
@@ -29,4 +29,4 @@ const WriteUps = () => {
     );
 }
 
-export default WriteUps;
+export default Festivals;
