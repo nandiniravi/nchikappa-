@@ -4,20 +4,20 @@ import Card from '../Card/Card';
 const NavOptions = () => {
     const options = [
         {
-            title: 'His Childhood',
-            link: '/childhood'
+            title: 'About Him',
+            link: '/about-him'
         },
         {
-            title: 'His Service',
-            link: '/service'
+            title: 'Religion',
+            link: '/religion'
         },
         {
-            title: 'His Commendations',
-            link: '/commendations'
+            title: 'e-Book',
+            link: '/ebook'
         },
         {
-            title: 'His Vision',
-            link: '/vision'
+            title: 'Gallery',
+            link: '/gallery'
         }
     ];
     return (

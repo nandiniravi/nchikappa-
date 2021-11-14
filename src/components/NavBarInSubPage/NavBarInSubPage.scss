@@ -1,0 +1,25 @@
+@import '../style.scss';
+
+.navbar-subpage{
+    padding: 1%;
+    background-color: $secondary-color;
+    text-align: left;
+    overflow: hidden;
+}
+
+.navbar-subpage a{
+    padding: 1.5%;
+    color: $text-color;
+}
+
+.navbar-subpage a:hover{
+    background-color: $tertiary-color;
+}
+
+a.selected{
+    background-color: $tertiary-color;
+}
+
+.back-arrow{
+    margin-right: 8px;
+}

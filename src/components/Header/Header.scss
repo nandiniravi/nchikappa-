@@ -3,7 +3,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    // justify-content: space-evenly;
+    justify-content: space-between;
     background-color: $primary-color;
     padding: 2%;
     color: $text-color;
@@ -11,14 +11,14 @@
 
 .header h1{
     display: inline-block;
-    width: 56%;
+    width: 48%;
     text-align: left;
     margin: 0;
 }
 
 .header a{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
     color: $text-color;
     font-weight: bold;
     padding: 3%;
@@ -29,7 +29,8 @@
     text-decoration: underline;
 }
 
-.navbar{
+.header-navbar{
+    width: 48%;
     margin-top: 1%;
 }
 
