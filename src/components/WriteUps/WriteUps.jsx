@@ -13,7 +13,7 @@ const WriteUps = () => {
                 return ( 
                 <div className="accordion-item">
                     <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={'#collapse' + index} aria-expanded="true" aria-controls={'collapse' + index}>
+                        <button className="accordion-button custom-colr" type="button" data-bs-toggle="collapse" data-bs-target={'#collapse' + index} aria-expanded="true" aria-controls={'collapse' + index}>
                             {each.accItemTitle}
                         </button>
                     </h2>

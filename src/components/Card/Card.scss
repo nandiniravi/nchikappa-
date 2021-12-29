@@ -5,7 +5,8 @@
     height: 200px;
     color: $text-color;
     text-align: center;
-    background-color: $primary-color;
+    // background-color: $primary-color;
+    background-image: linear-gradient(#1FBFC5,#F3B83B);
     border: 1px solid $text-color;
     border-radius: 16px;
     box-shadow: 5px 5px 5px 5px #ccc;
@@ -14,7 +15,8 @@
 
 .card p{
     margin-top: 40%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    // font-family: myHeaderFont;
 }
 
 a{

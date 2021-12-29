@@ -1,5 +1,5 @@
-$primary-color: #FFC300;
-$secondary-color: #59D1C0;
+$primary-color: #1FBFC5;
+$secondary-color: #FFC300;
 $tertiary-color: #FFA351;
 
 $alert-color: #FF9494;
@@ -7,3 +7,8 @@ $text-color: #ffffff;
 
 $screen-text-color: #555555;
 $form-border-color: #dddddd;
+
+@font-face {
+    font-family: myHeaderFont;
+    src: url(../fonts/SamarkanNormal-Gg5D.ttf);
+  }

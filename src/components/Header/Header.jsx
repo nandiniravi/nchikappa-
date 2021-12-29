@@ -4,7 +4,8 @@ import {NavLink} from 'react-router-dom';
 const Header = () => {
     return(
         <div className='header'>
-            <h1>|| ॐ नमो नारायणा ||</h1>
+            {/* <h1>|| ॐ नमो नारायणा ||</h1> */}
+            <h1>Narayana<span> - </span> Memoir of a Sadhaka</h1>
             <div className='header-navbar'>
                 <NavLink exact activeClassName='selected' to='/'>Home</NavLink>
                 <NavLink exact activeClassName='selected' to='/about-him'>About Him</NavLink>

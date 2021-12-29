@@ -1,4 +1,13 @@
+@font-face {
+  font-family: bookAntiquaDefault;
+  src: url(./fonts/book-antiqua.ttf);
+}
+
 .App {
   text-align: center;
   color: #333;
+}
+
+.App p{
+  font-family: bookAntiquaDefault;
 }
