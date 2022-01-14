@@ -26,15 +26,9 @@ const Commendations = () => {
             {data.map(each => {
                 return(
                     <div className='commendations-sub' >
-                        <figure>
-                        <blockquote>
-                        <p style={{textAlign: "left", padding: "0%", margin: "0%"}}><span>&#10077;</span></p>
-                        <p>{each.text}</p>
-                        <p style={{textAlign: "right", padding: "0%", margin: "0%"}}><span>&#10078;</span></p>
-                        </blockquote>
-                        <figcaption>— {each.by}, <cite>{each.relation}</cite></figcaption>
-                    </figure>
+                     {each.by}, {each.relation}
                     </div>
+                     
                 );
             })}
         </div>

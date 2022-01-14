@@ -3,7 +3,12 @@ import './Intro.scss';
 const Intro = () => {
     return (
         <div className='intro'>
-            <p>Intro about Narayana chkpa. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <span className='sloka'>bahūnām janmanām ante<br/>
+             jñānavān mām prapadyate<br/>
+              vāsudevah sarvam iti<br/>
+            sa mahātmā su-durlabhah</span>
+            <p className='intro-text'>After many births and deaths, he who is actually in knowledge surrenders unto Me, knowing Me to be the cause of all causes and all that is. Such a great soul is very rare.</p>
+            <p><i>Says Lord Krishna in Bhagavad Gita, Chapter 7 - 19</i></p>
         </div>
     );
 }

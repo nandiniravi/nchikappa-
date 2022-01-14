@@ -20,8 +20,14 @@
     border: 1px solid #ccc;
     border-radius: 16px;
     box-shadow: 5px 5px 5px 5px #ccc;
-    margin: 3%;
-    padding: 2%;
+    margin: 1% 2%;
+    padding: 1.5%;
+}
+
+.commendations-sub:hover{
+    cursor: pointer;
+    background-color: $primary-color;
+    color: $text-color;
 }
 
 .commendations-sub span{

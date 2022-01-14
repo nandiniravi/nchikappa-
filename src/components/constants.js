@@ -5,17 +5,14 @@ const data = {
                 subPageTitle : 'About Him',
                 link : '/about-him'
             },
-            {   subPageTitle : 'His Childhood',
-                link : '/childhood'
+            {   subPageTitle : 'Introduction',
+                link : '/introduction'
             },
-            {   subPageTitle : 'His Service',
-                link : '/service'
-            },
-            {   subPageTitle : 'His Commendations',
+            {   subPageTitle : 'Commendations',
                 link : '/commendations'
             },
-            {   subPageTitle : 'His Vision',
-                link : '/vision'
+            {   subPageTitle : 'Impression',
+                link : '/impression'
             }
         ],
     religion : [
@@ -43,23 +40,19 @@ const data = {
     },
     options : {
         aboutHim : {
-            intro : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            intro : "Narayana made a difference to the lives of many with whom he came in contact during his lifetime, which is quite evident from the experiences shared by some of his relatives, friends and admirers. Narayana, an ardent follower of Lord Narayana's teachings, constantly focused on righteous living and truth, which also, are the main teachings of our Vedas - Ritam and Satyam. A true Dharmanistha who selflessly concentrated only on to the goals to be achieved without any expectations.",
             pageOptions: [
                 {
-                    title: 'His Childhood',
-                    link: '/childhood'
+                    title: 'Introduction',
+                    link: '/introduction'
                 },
                 {
-                    title: 'His Service',
-                    link: '/service'
-                },
-                {
-                    title: 'His Commendations',
+                    title: 'Commendations',
                     link: '/commendations'
                 },
                 {
-                    title: 'His Vision',
-                    link: '/vision'
+                    title: 'Impression',
+                    link: '/impression'
                 }
             ]
         },
