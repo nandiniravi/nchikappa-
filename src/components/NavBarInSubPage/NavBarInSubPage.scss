@@ -24,3 +24,14 @@ a.selected{
 .back-arrow{
     margin-right: 8px;
 }
+
+@media only screen and (max-width: 500px) {
+    .navbar-subpage{
+        padding: 3%;
+        background-image: linear-gradient(#1FBFC5,#F3B83B);
+        text-align: left;
+        overflow: hidden;
+        font-size: 0.9rem;
+    }
+    
+}

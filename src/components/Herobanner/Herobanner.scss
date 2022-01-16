@@ -7,3 +7,15 @@
     height: 500px;
     opacity: 0.8;
 }
+
+@media only screen and (max-width: 500px) {
+    .hero-banner {
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 15% -6%;
+        width: 600px;
+        height: 400px;
+        opacity: 0.8;
+    }
+}

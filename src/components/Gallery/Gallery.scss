@@ -28,3 +28,17 @@
     margin: 1%;
     text-align: left;
 }
+
+@media only screen and (max-width: 500px) {
+    .gallery-sub img{
+        display: inline-block;
+        width: 290px;
+        margin: 1%;
+        margin-left: 8%;
+        text-align: center;
+    }
+
+    figcaption{
+        font-size: 0.9rem;
+    }
+}
