@@ -29,6 +29,16 @@
     text-align: left;
 }
 
+@media only screen and (max-width: 1200px) {
+    .gallery-sub img{
+        display: inline-block;
+        width: 450px;
+        margin: 1%;
+        margin-left: 21%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .gallery-sub img{
         display: inline-block;
