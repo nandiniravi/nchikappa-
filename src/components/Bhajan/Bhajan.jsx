@@ -16,7 +16,7 @@ const Bhajan = () => {
         <div className="accordion acc" id="accordionExample">
             {accordionBhajanData.map((each, index) => {
                 return ( 
-                <div className="accordion-item">
+                <div className="accordion-item" key={index}>
                     <h2 className="accordion-header">
                         <button className="accordion-button custom-colr" type="button" data-bs-toggle="collapse" data-bs-target={'#collapse' + index} aria-expanded="true" aria-controls={'collapse' + index}>
                             {each.accItemTitle}
@@ -24,10 +24,10 @@ const Bhajan = () => {
                     </h2>
                     <div id={'collapse' + index} className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            {each.accItemBhajanList.map(each => {
-                                return <a href={each.link} target="_blank" rel="noreferrer">
+                            {each.accItemBhajanList.map((each,index) => {
+                                return <a href={each.link} target="_blank" rel="noreferrer" key={index}>
                                     <div className='bhajan-sub'>
-                                    <i class="fa fa-file-pdf-o" style={{marginRight: "16px", marginTop: "2px"}}></i>{each.bhajanName}
+                                        <i className="fa fa-file-pdf-o" style={{marginRight: "16px", marginTop: "2px"}}></i>{each.bhajanName}
                                     </div>
                                 </a>
                             })}

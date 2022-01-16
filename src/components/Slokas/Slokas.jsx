@@ -9,9 +9,9 @@ const Slokas = () => {
             <h2>Slokas</h2>
             {slokasDetails.map(each => {
                 return(
-                    <a href={each.link} target="_blank" rel="noreferrer">
+                    <a href={each.link} target="_blank" rel="noreferrer" key={each.slokaName}>
                         <div className='slokas-sub'>
-                        <i class="fa fa-file-pdf-o" style={{marginRight: "16px", marginTop: "2px"}}></i>{each.slokaName}
+                        <i className="fa fa-file-pdf-o" style={{marginRight: "16px", marginTop: "2px"}}></i>{each.slokaName}
                         </div>
                     </a>                     
                 );

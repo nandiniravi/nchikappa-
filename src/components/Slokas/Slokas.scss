@@ -49,3 +49,16 @@
     margin: 1%;
     text-align: justify;
 }
+
+@media only screen and (max-width: 500px) {
+    .slokas-sub{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        box-shadow: 5px 5px 5px 5px #ccc;
+        margin: 3% 2%;
+        padding: 2%;
+    }
+}

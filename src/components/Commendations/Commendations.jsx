@@ -9,7 +9,7 @@ const Commendations = () => {
             <h2>Commendations</h2>
             {commendationsDetails.map(each => {
                 return(
-                    <a href={each.link} target="_blank" rel="noreferrer"><div className='commendations-sub'>
+                    <a href={each.link} target="_blank" rel="noreferrer" key={each.by}><div className='commendations-sub'>
                      {each.by}, {each.relation}
                     </div></a>
                      
