@@ -6,6 +6,9 @@
 .App {
   text-align: center;
   color: #333;
+  background-image: url('./assets/images/transparent-bg2.png');
+  background-position: left middle;
+  background-repeat: repeat-y;
 }
 
 .App p{

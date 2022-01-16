@@ -1,0 +1,51 @@
+@import '../style.scss';
+
+.slokas-main{
+    display: flex;
+    flex-direction: column;
+    background-color: $text-color;
+}
+
+.slokas-main h2{
+    background-color: $secondary-color;
+    color: $text-color;
+    font-weight: normal;
+    padding: 1%;
+    margin-top: 8px;
+}
+
+.slokas-sub{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 1% 2%;
+    padding: 1.5%;
+}
+
+.slokas-sub:hover{
+    cursor: pointer;
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+.slokas-sub span{
+    font-size: 3rem;
+    color: #666;
+}
+
+.slokas-sub p{
+    margin: 0%;
+}
+
+.slokas-sub blockquote{
+    margin: 0%;
+    padding: 0%;
+}
+
+.slokas-sub p{
+    margin: 1%;
+    text-align: justify;
+}

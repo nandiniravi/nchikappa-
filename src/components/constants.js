@@ -20,10 +20,10 @@ const data = {
                     subPageTitle : 'Religion',
                     link : '/religion'
                 },
-                {
-                    subPageTitle: 'Write Ups',
-                    link: '/writeup'
-                },
+                // {
+                //     subPageTitle: 'Write Ups',
+                //     link: '/writeup'
+                // },
                 {
                     subPageTitle: 'Slokas',
                     link: '/slokas'
@@ -32,10 +32,10 @@ const data = {
                     subPageTitle: 'Bhajan',
                     link: '/bhajan'
                 },
-                {
-                    subPageTitle: 'Festivals',
-                    link: '/festivals'
-                }
+                // {
+                //     subPageTitle: 'Festivals',
+                //     link: '/festivals'
+                // }
         ]
     },
     options : {
@@ -57,12 +57,12 @@ const data = {
             ]
         },
         religion : {
-            intro : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            intro : "According to Sanatana Dharma, to be born as a human among the innumerable species on this planet, is itself a unique blessing in the arduous journey through countless births. Being born as a human is an opportunity to pursue 'The Purusharthas', referred to in Vedic texts and within the great epics of the Ramayana and Mahabharata, translated in Sanskrit as the “goals of human existence” or “the soul's purpose.The Purusharthas as referred to in the scriptures are dharma (righteousness), artha (resources), Kama (desire) and Moksha (salvation). Moksha being the ultimate goal of a human birth. Bhakti along with Jnana and Vairagya leads the follower, to be eligible for consideration for moksha.",
             pageOptions: [
-                {
-                    title: 'Write Ups',
-                    link: '/writeup'
-                },
+                // {
+                //     title: 'Write Ups',
+                //     link: '/writeup'
+                // },
                 {
                     title: 'Slokas',
                     link: '/slokas'
@@ -71,37 +71,170 @@ const data = {
                     title: 'Bhajan',
                     link: '/bhajan'
                 },
-                {
-                    title: 'Festivals',
-                    link: '/festivals'
-                }
+                // {
+                //     title: 'Festivals',
+                //     link: '/festivals'
+                // }
             ]
         }
     },
-    accordionWriteupData : [
+    accordionBhajanData : [
         { 
-            accItemTitle : 'Accordion Title 1',
-            accItemData : '1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Ganesha',
+            accItemBhajanList : [
+                {bhajanName : "Sharanu Siddhi Vinayaka",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"}
+            ]
         },
         { 
-            accItemTitle : 'Accordion Title 2',
-            accItemData : '2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Saraswathi',
+            accItemBhajanList : [
+                {bhajanName : "Nammamma Sharade",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Paalisamma muddhu Sharade",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"}
+            ]
         },
         { 
-            accItemTitle : 'Accordion Title 3',
-            accItemData : '3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Mahalaxmi',
+            accItemBhajanList : [
+                {bhajanName : "Bhagyada LakshmI Baramma",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Yenu dhanyalo lakumi",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"}
+            ]
         },
         { 
-            accItemTitle : 'Accordion Title 4',
-            accItemData : '4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Narayana',
+            accItemBhajanList : [
+                {bhajanName : "Ambiga Naa Ninna Nambide",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Bagilanu Teeredo",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Dasana Madiko Yenna",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Deva Banda Namma Swami Banda",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Devesha Gana Aaradhita",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Hari Narayana Hari Narayana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Indu Enge Govinda",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Inta Prabhuva Kaneno",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Kaliyugodholo hari Naama",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Keshava Nama",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Narayana The Namo Namo",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Ranga Baro",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Tirupati Venkata Ramana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Venkatachala Nilayam",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
         },
         { 
-            accItemTitle : 'Accordion Title 5',
-            accItemData : '5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Rama',
+            accItemBhajanList : [
+                {bhajanName : "Dasharatatmaja Dhanuja",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Khelati Mama Hyrudaye",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Paluke Bangara Mayena",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Rama Nama Payasakke",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Rama Nama",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Telisi Rama",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"}
+
+            ]
         },
         { 
-            accItemTitle : 'Accordion Title 6',
-            accItemData : '6. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            accItemTitle : 'Krishna',
+            accItemBhajanList : [
+                {bhajanName : "Alai Payudhe",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Gayathi Vanamali",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Jagadodharana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Kadagola Thaare Chinnave",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Krishna Nee Begane Baro",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Pillangovia Chelluva Krishnana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Thugire Rangana Thugire Krishnanana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Yaare Rangana Yaare Krishnana",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Yamuna Teera Vihari",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"}
+
+            ]
+        },
+        { 
+            accItemTitle : 'Hanumantha',
+            accItemBhajanList : [
+                {bhajanName : "Hanumantha",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
+        },
+        { 
+            accItemTitle : 'Shiva',
+            accItemBhajanList : [
+                {bhajanName : "Rudhradevaru",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
+        },
+        { 
+            accItemTitle : 'Subramanya',
+            accItemBhajanList : [
+                {bhajanName : "Anjel Anjel",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
+        },
+        { 
+            accItemTitle : 'Gurugalu',
+            accItemBhajanList : [
+                {bhajanName : "Vijaya Kavacha",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
+        },
+        { 
+            accItemTitle : 'General',
+            accItemBhajanList : [
+                {bhajanName : "Ellaru Maduvudhu",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Esu Kaalangala",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Raagi Thandeera",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Satyavantharigidu kaalavilla",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
+        },
+        { 
+            accItemTitle : 'Samarpane',
+            accItemBhajanList : [
+                {bhajanName : "Mangala Koushikam",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+                {bhajanName : "Namavali Rama Govinda",
+                link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Impressions.pdf"},
+
+            ]
         }
     ],
     accordionFestivalsData : [
@@ -242,9 +375,47 @@ const data = {
         { by : 'Smt. Vatsala',
         relation: 'Retd. Lecturer (English), Govt. P U college',
         link: 'https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf'},
+    ],
+    slokasDetails : [
+        { slokaName: "Invoccation Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Daily Recitation",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Srinivasadevarua Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Hayagreeva Stuti",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Ramesha Stuti",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Manyu Sukta",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "NarasimhaDevara Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Narayana Sukta",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Ramadevara Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Krishna Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Lakshmi Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Durga Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Hanumantha Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Rudradevara Shloka",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Navagraha Shloka",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Sri Raghottama Theerta Shloka",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Sri Raghavendra Swami Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "Samarpane Shlokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
+        { slokaName: "All Slokas",
+        link: "https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" },
     ]
-
-    
 }
 
 export default data;

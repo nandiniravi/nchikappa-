@@ -9,7 +9,7 @@ const NavOptions = (props) => {
     const page = props.page;
     return (
         <div className='main-options'>
-            <p>{options[page].intro}</p>
+            <p style={{marginTop: "24px"}}>{options[page].intro}</p>
             <div className='nav-options'>
             {options[page].pageOptions.map(each => {
                 return(

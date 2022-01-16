@@ -1,0 +1,53 @@
+@import '../style.scss';
+
+.bhajan p{
+    margin: 2% 5% 5% 5%;
+}
+
+.bhajan h2.title{
+    background-color: $secondary-color;
+    color: $text-color;
+    font-weight: normal;
+    padding: 1%;
+    margin-top: 8px;
+}
+
+.acc{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.accordion-button{
+    background-color: #F3B83B;
+    color: $text-color;
+    box-shadow: inset 0 -1px 0 #F3B83B(0 0 0 / 13%);
+}
+
+.accordion-button:not(.collapsed){
+    background-image: linear-gradient(#1FBFC5,#F3B83B);
+    color: $text-color;
+    box-shadow: 4px #ccc;
+}
+
+.accordion-button::after{
+    color: $text-color;
+}
+
+.bhajan-sub{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 1% 2%;
+    padding: 1.5%;
+}
+
+.bhajan-sub:hover{
+    cursor: pointer;
+    background-color: $primary-color;
+    color: $text-color;
+}
