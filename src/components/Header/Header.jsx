@@ -10,8 +10,7 @@ const Header = () => {
                 <NavLink exact activeClassName='selected' to='/'>Home</NavLink>
                 <NavLink exact activeClassName='selected' to='/about-him'>About Him</NavLink>
                 <NavLink exact activeClassName='selected' to='/religion'>Religion</NavLink>
-                {/* <NavLink exact activeClassName='selected' to='/ebook'>e-Book</NavLink> */}
-                <a href="https://memoirofasadhaka.s3.ap-south-1.amazonaws.com/Adv.+O+Sham+Bhat.pdf" target="_blank" rel="noreferrer">e-Book</a>
+                <a href="https://narayanamantra.s3.ap-south-1.amazonaws.com/about-him/01_Introduction.pdf" target="_blank" rel="noreferrer">e-Book</a>
                 <NavLink exact activeClassName='selected' to='/gallery'>Gallery</NavLink>
             </div>
         </div>
