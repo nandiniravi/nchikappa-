@@ -41,6 +41,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage": "http://nandiniravi.github.io/nchikappa-"
+  }
 }
