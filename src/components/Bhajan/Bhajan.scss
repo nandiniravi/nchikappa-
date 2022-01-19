@@ -51,3 +51,20 @@
     background-color: $primary-color;
     color: $text-color;
 }
+
+@media only screen and (max-width: 500px) {
+    .bhajan p{
+        margin: 6% 5% 5% 5%;
+    }
+
+    .bhajan-sub{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        box-shadow: 5px 5px 5px 5px #ccc;
+        margin: 3% 2%;
+        padding: 3%;
+    }
+}

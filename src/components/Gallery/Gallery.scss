@@ -28,3 +28,37 @@
     margin: 1%;
     text-align: left;
 }
+
+@media only screen and (max-width: 1200px) {
+    .gallery-sub img{
+        display: inline-block;
+        width: 450px;
+        margin: 1%;
+        margin-left: 21%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .gallery-sub img{
+        display: inline-block;
+        width: 450px;
+        margin: 1%;
+        margin-left: 20%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .gallery-sub img{
+        display: inline-block;
+        width: 290px;
+        margin: 1%;
+        margin-left: 8%;
+        text-align: center;
+    }
+
+    figcaption{
+        font-size: 0.9rem;
+    }
+}

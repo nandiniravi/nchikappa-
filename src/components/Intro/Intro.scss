@@ -15,3 +15,12 @@
     font-family: myHeaderFont;
     font-size: large;
 }
+
+@media only screen and (max-width: 500px) {
+    .intro{
+        padding: 10% 5% 2% 5%;
+        text-align: center;
+        border-bottom: 2px solid $primary-color;
+        font-size: 0.9rem;
+    }
+}

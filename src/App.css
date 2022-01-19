@@ -14,3 +14,13 @@
 .App p{
   font-family: bookAntiquaDefault;
 }
+
+@media only screen and (max-width: 500px) {
+  .App {
+    text-align: center;
+    color: #333;
+    background-image: url('./assets/images/transparent-bg2.png');
+    background-position: -65% 0%;
+    background-repeat: repeat-y;
+  }
+}
