@@ -11,11 +11,11 @@ const NavOptions = (props) => {
         <div className='main-options'>
             <p style={{marginTop: "24px"}}>{options[page].intro}</p>
             <div className='nav-options'>
-            {options[page].pageOptions.map(each => {
-                return(
-                    <Card title={each.title} link={each.link} key={each.title}></Card>
-                );
-            })}
+                {options[page].pageOptions.map(each => {
+                    return(
+                        <Card title={each.title} link={each.link} key={each.title}></Card>
+                    );
+                })}
             </div>
         </div>
     );

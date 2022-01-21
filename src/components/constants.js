@@ -61,6 +61,20 @@ const data = {
                     link: '/bhajan'
                 },
             ]
+        },
+        ebook : {
+            intro: 
+            "This book distills the experiences shared by a few of Narayana's well-wishers and admirers, with a simple attempt to put-forth the core dharmic way of life practiced by him to lead a purposeful life. The beauty being, no self-proclamation. A Bhagavadarpita Life - Built on the Art of Giving.",
+            pageOptions: [
+                {
+                    title: 'e-book in English',
+                    link: 'https://narayanamantra.s3.ap-south-1.amazonaws.com/ebook/01_Naryan-English.pdf'
+                },
+                {
+                    title: 'e-book in Kannada, Tamil',
+                    link: 'https://narayanamantra.s3.ap-south-1.amazonaws.com/ebook/02_Narayan-KannadaTamil.pdf'
+                },
+            ]
         }
     },
     accordionBhajanData : [

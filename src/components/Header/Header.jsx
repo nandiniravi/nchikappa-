@@ -33,8 +33,8 @@ const Header = () => {
                 <NavLink exact activeClassName='selected' to='/'>Home</NavLink>
                 <NavLink exact activeClassName='selected' to='/about-him'>About Narayana</NavLink>
                 <NavLink exact activeClassName='selected' to='/religion'>Devotional</NavLink>
-                <a href="https://narayanamantra.s3.ap-south-1.amazonaws.com/ebook/01_Naryan-English.pdf" target="_blank" rel="noreferrer">e-Book</a>
-                {/* <NavLink exact activeClassName='selected' to='/gallery'>Gallery</NavLink> */}
+                {/* <a href="https://narayanamantra.s3.ap-south-1.amazonaws.com/ebook/01_Naryan-English.pdf" target="_blank" rel="noreferrer">e-Book</a> */}
+                <NavLink exact activeClassName='selected' to='/ebook'>e-Book</NavLink>
             </div>
         </div>
     );

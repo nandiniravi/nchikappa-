@@ -41,6 +41,9 @@ const App = () => {
           <Route exact path='/religion'>
             <MainPageOptions page='religion'></MainPageOptions>
           </Route>
+          <Route exact path='/ebook'>
+            <MainPageOptions page='ebook'></MainPageOptions>
+          </Route>
           <Route exact path='/gallery'>
             <NavBarInSubPage page='aboutHim'></NavBarInSubPage>
             <Gallery></Gallery>
