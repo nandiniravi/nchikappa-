@@ -11,10 +11,23 @@ import NavBarInSubPage from './components/NavBarInSubPage/NavBarInSubPage';
 import Gallery from './components/Gallery/Gallery';
 import Bhajan from './components/Bhajan/Bhajan';
 import Slokas from './components/Slokas/Slokas';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 const App = () => {
   return (
     <BrowserRouter>
+        <ScrollToTop />
         <div className="App">
           <Header></Header>
           <Route exact path='/'>
@@ -29,6 +42,7 @@ const App = () => {
             <MainPageOptions page='religion'></MainPageOptions>
           </Route>
           <Route exact path='/gallery'>
+            <NavBarInSubPage page='aboutHim'></NavBarInSubPage>
             <Gallery></Gallery>
           </Route>
           <Route exact path='/commendations'>

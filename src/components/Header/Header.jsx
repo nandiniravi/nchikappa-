@@ -31,10 +31,10 @@ const Header = () => {
             {showMobMenu ? Menu : null}
             <div className='header-navbar'>
                 <NavLink exact activeClassName='selected' to='/'>Home</NavLink>
-                <NavLink exact activeClassName='selected' to='/about-him'>About Him</NavLink>
-                <NavLink exact activeClassName='selected' to='/religion'>Religion</NavLink>
-                <a href="https://narayanamantra.s3.ap-south-1.amazonaws.com/about-him/01_Introduction.pdf" target="_blank" rel="noreferrer">e-Book</a>
-                <NavLink exact activeClassName='selected' to='/gallery'>Gallery</NavLink>
+                <NavLink exact activeClassName='selected' to='/about-him'>About Narayana</NavLink>
+                <NavLink exact activeClassName='selected' to='/religion'>Devotional</NavLink>
+                <a href="https://narayanamantra.s3.ap-south-1.amazonaws.com/ebook/01_Naryan-English.pdf" target="_blank" rel="noreferrer">e-Book</a>
+                {/* <NavLink exact activeClassName='selected' to='/gallery'>Gallery</NavLink> */}
             </div>
         </div>
     );

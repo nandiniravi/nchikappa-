@@ -11,7 +11,7 @@ const NavBarInSubPage = (props) => {
         <div className='navbar-subpage'>
             {navBarOptions[page].map(each => {
                 return <NavLink to={each.link} key={each.subPageTitle} activeClassName='selected'>
-                    {(each.subPageTitle === 'About Him') || (each.subPageTitle === 'Religion' )
+                    {(each.subPageTitle === 'About Narayana') || (each.subPageTitle === 'Devotional' )
                     ? <i className="fa fa-arrow-circle-left back-arrow"></i>
                     : null}
                     {each.subPageTitle}
