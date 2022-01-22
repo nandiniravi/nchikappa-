@@ -276,7 +276,7 @@ const data = {
         relation: 'Edappaly, Ernakulam',
         link: 'https://narayanamantra.s3.ap-south-1.amazonaws.com/about-him/commendations/34_Smt_Sreedevi.pdf'},
         { by : 'Shri Nageshji',
-        relation: 'Kanyakumari',
+        relation: 'Shimoga',
         link: 'https://narayanamantra.s3.ap-south-1.amazonaws.com/about-him/commendations/14_Shri_Nageshji.pdf'},
         { by : 'Shri Ashok Kumar',
         relation: 'Chennai',
